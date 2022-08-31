@@ -406,7 +406,7 @@ ul{
     width: calc(100%);
   }
   .version-car{
-    font-size: 16px;
+    font-size: 15px;
   }
   .price-car{
     font-size: 14px;
@@ -416,6 +416,7 @@ ul{
   }
   .navigation{
     font-size: 16px;
+    padding: 0px 0px
   }
   .detail-product{
     display: block;
@@ -432,5 +433,20 @@ ul{
   }
   .navigation > a{
     margin: 0 30px;
+  }
+  html{
+   
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  .wraper-header{
+    
+  }
+  .wraper-heading>h1{
+    text-align: center;
+  }
+  .car-name{
+    margin: 10px 0 0 0;
+    text-align: center;
   }
 }
