@@ -440,7 +440,7 @@ ul{
     overflow-x: hidden;
   }
   .wraper-header{
-    
+    width: 100vw;
   }
   .wraper-heading>h1{
     text-align: center;
@@ -448,5 +448,8 @@ ul{
   .car-name{
     margin: 10px 0 0 0;
     text-align: center;
+  }
+  .grid__row{
+    margin: 0;
   }
 }
