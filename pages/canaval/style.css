@@ -1,0 +1,28 @@
+.car-bg{
+  max-height: 95vh;
+  object-position: bottom left;
+  object-fit: cover;
+}
+.slider-main-car{
+  position: relative;
+}
+.car-content {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  color: whitesmoke;
+  z-index: 1;
+  background-color: rgba(24, 26, 27, 0.2);
+}
+.car-category{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px
+}
+.car-content  h2{
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.car-content .car-price h6{
+  font-size: 17px;
+}
