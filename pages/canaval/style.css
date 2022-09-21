@@ -39,7 +39,7 @@
   position: relative;
   width: 100%;
 }
-.slider-img-wraper p{
+.slider-img-wraper>p{
   position: absolute;
   bottom: 20px;
   left: 50%;

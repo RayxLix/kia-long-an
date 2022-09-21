@@ -86,10 +86,10 @@ ul{
 }
 .square-car-right{
   margin: auto 15px;
+  width: 100%;
 }
 .square-car-content{
-border-top-right-radius: 40px;
-border-bottom-right-radius: 40px;
+
 }
 .square-car-content h1{
   font-size: 42px;
@@ -97,7 +97,7 @@ border-bottom-right-radius: 40px;
   padding-bottom: 15px;
   margin-bottom: 15px;
   font-weight: 400;
-
+  text-align: left;
 }
 .square-car-content h1::after{
   content: "";
