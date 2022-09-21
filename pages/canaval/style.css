@@ -26,3 +26,24 @@
 .car-content .car-price h6{
   font-size: 17px;
 }
+.car-content-imgs{
+
+}
+.silder-img-before{
+  
+}
+.silder-img-after{
+
+}
+.slider-img-wraper{
+  position: relative;
+  width: 100%;
+}
+.slider-img-wraper p{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 20px;
+}

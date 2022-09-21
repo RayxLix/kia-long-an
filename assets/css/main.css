@@ -10,6 +10,11 @@ html{
   max-width: 960px;
   margin: auto;
 }
+.container-contact{
+  max-width: 400px;
+  margin: auto;
+
+}
 a{
   text-decoration: none;
   color: black;
@@ -64,5 +69,83 @@ ul{
 }
 .mtb-12{
   margin-bottom: 12px;
+}
+.car-content-imgs{
+
+}
+.square-car-wraper{
+  display: flex;
+  font-size: 16px;
+}
+.square-car-left{
+  flex: 0 0 60%;
+}
+.square-car-left img{
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.square-car-right{
+  margin: auto 15px;
+}
+.square-car-content{
+border-top-right-radius: 40px;
+border-bottom-right-radius: 40px;
+}
+.square-car-content h1{
+  font-size: 42px;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  font-weight: 400;
+
+}
+.square-car-content h1::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background-color: #ac2b31;
+}
+.square-car-content>p{
+  font-weight: 400;
+  line-height: 1.6;
+}
+.not-square-wraper{
+  display: flex;
+  justify-content: center;
+}
+.not-square-left{
+  margin:auto 15px;
+  flex: 0 0 40%;
+}
+.not-square-left h2{
+  position: relative;
+  font-size: 30px;
+  margin: 30px 0 15px 0;
+  padding-bottom: 15px;
+}
+.not-square-left h2::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background-color: #ac2b31;
+}
+.not-square-left p{
+  font-weight: 400;
+  line-height: 1.6;
+}
+.not-square-right{
+  position: relative;
+  overflow: hidden;
+  
+}
+.not-square-right img{
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 
