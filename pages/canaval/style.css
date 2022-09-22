@@ -17,7 +17,18 @@
 .car-category{
     position: relative;
     display: inline-block;
+    font-size: 32px;
+    position: relative;
     padding-bottom: 10px
+}
+.car-category::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 2px;
+    background-color: #ac2b31;
 }
 .car-content  h2{
   font-size: 45px;

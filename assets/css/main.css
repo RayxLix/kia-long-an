@@ -80,6 +80,10 @@ ul{
 .square-car-left{
   flex: 0 0 60%;
 }
+
+.square-car-left-40{
+  flex: 0 0 50%;
+}
 .square-car-left img{
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
@@ -148,4 +152,40 @@ ul{
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
 }
-
+.square-car-content h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 3px;
+  background-color: #ac2b31;
+}
+.center-slider-2{
+  margin: auto;
+  padding: 15px 48px;
+}
+.center-slider-2>p{
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.center-slider-2>h2{
+  position: relative;
+  font-size: 36px;
+  text-align: left !important;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+}
+.text-center{
+  text-align: center !important;
+}
+.section-bg-heading{
+  background-color: black;
+  color: white;
+  height: 10vh;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
