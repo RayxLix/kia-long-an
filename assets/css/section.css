@@ -406,16 +406,16 @@ ul{
     width: calc(100%);
   }
   .version-car{
-    font-size: 15px;
+    font-size: 18px;
   }
   .price-car{
-    font-size: 14px;
+    font-size: 16px;
   }
   .link-car{
-    font-size: 12px;
+    font-size: 16px;
   }
   .navigation{
-    font-size: 16px;
+    font-size: 24px;
     padding: 0px 0px
   }
   .detail-product{

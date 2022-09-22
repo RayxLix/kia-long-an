@@ -5,6 +5,7 @@ html{
   font-family: 'Oswald', sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
+ 
 }
 .container{
   max-width: 960px;
@@ -71,7 +72,7 @@ ul{
   margin-bottom: 12px;
 }
 .car-content-imgs{
-
+  margin-top: -4px;
 }
 .square-car-wraper{
   display: flex;
@@ -142,6 +143,7 @@ ul{
 .not-square-left p{
   font-weight: 400;
   line-height: 1.6;
+  font-size: 17px;
 }
 .not-square-right{
   position: relative;
@@ -177,6 +179,9 @@ ul{
   padding-bottom: 15px;
   text-transform: capitalize;
 }
+.square-car-content h1,.square-car-content h2{
+  text-transform:uppercase;
+}
 .text-center{
   text-align: center !important;
 }
@@ -188,4 +193,14 @@ ul{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.not-square-right{
+  display: flex;
+  align-items: center;
+}
+.car-category{
+  letter-spacing: 6px;
+}
+.square-car-content>p{
+  font-size: 17px;
 }

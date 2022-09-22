@@ -19,8 +19,10 @@
     display: inline-block;
     font-size: 32px;
     position: relative;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    letter-spacing: 3px;
 }
+
 .car-category::after{
   content: "";
   position: absolute;
