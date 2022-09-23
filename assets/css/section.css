@@ -390,10 +390,7 @@ ul{
 .center-text{
   text-align: center;
 }
-/* 
-@media screen and (max-width: 1024px){
 
-} */
 
 @media screen and (max-width:1024px){
   .grid__row{
@@ -451,5 +448,11 @@ ul{
   }
   .grid__row{
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 740px){
+  .navigation > a{
+    margin: 0 20px;
   }
 }
